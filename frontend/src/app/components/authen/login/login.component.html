@@ -11,7 +11,7 @@
                 </div>
                 <form #loginForm="ngForm" (submit)="onSubmit(loginForm)">
                     <div class="input-group mb-3">
-                        <input ngModel name="username" type="email" class="form-control" placeholder="Email">
+                        <input [ngModel]="'admin1'" name="username" type="email" class="form-control" placeholder="Username" value="admin1">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input ngModel name="password" type="password" class="form-control" placeholder="Password">
+                        <input [ngModel]="'admin'" name="password" type="password" class="form-control" placeholder="Password" value="admin">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>

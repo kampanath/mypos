@@ -23,6 +23,8 @@ export class LoginComponent implements OnInit {
     if (this.authService.isLogin()) {
       this.router.navigate(["/stock"])
     }
+
+    
   }
 
   onSubmit(loginForm: NgForm) {
