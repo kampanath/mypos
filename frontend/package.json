@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
-    "node": "16.14",
+    "node": "^10.9.0",
     "rxjs": "~6.4.0",
     "rxjs-compat": "^6.5.4",
     "sweetalert2": "^9.6.1",
